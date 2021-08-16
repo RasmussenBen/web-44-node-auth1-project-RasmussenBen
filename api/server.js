@@ -42,7 +42,7 @@ server.use((err, req, res, next) => { // eslint-disable-line
 });
 
 server.use(session({
-  name: 'test',
+  name: 'chocolatechip',
   secret: 'secret test',
   saveUninitialized: false,
   resave: false,
